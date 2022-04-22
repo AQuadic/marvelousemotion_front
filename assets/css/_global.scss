@@ -136,7 +136,7 @@ ul{
     align-content: center;
 
     .btn-contain {
-        width: 170px;
+        width: 150px;
         height: 50px;
         background-color: var(--primary);
         border-radius: 10px;
@@ -282,8 +282,8 @@ ul{
             justify-content: space-around;
 
             a, button {
-                width: 45px;
-                height: 45px;
+                width: 40px;
+                height: 40px;
                 background-color: rgba($color: #b44824, $alpha: 0.7);
                 border-radius: 4px;
                 display: flex;
