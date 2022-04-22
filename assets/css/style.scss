@@ -1521,6 +1521,58 @@ header {
   }
 }
 
+.loader {
+  width: 100%;
+  padding: 20px 0px !important;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  z-index: 999999;
+  .spinner {
+    width: 128px;
+    height: 128px;
+    border: 3px solid var(--secondary);
+    border-bottom: 3px solid transparent;
+    border-radius: 50%;
+    position: relative;
+    animation: spin 1s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .inner {
+      width: 64px;
+      height: 64px;
+      border: 3px solid transparent;
+      border-top: 3px solid  var(--secondary);
+      border-radius: 50%;
+      animation: spinInner 1s linear infinite;
+    }
+  }
+
+  
+  &.hidden {
+    animation: loaderSlideDown 1s;
+    animation-fill-mode: forwards;
+  } 
+}
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+@keyframes spinInner {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(-720deg);
+  }
+}
 
 .show_pass {
   position: absolute;

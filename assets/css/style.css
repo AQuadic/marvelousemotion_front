@@ -3365,6 +3365,94 @@ header .swiper-pagination .swiper-pagination-current {
           filter: invert(52%) sepia(0%) saturate(2%) hue-rotate(65deg) brightness(95%) contrast(89%);
 }
 
+.loader {
+  width: 100%;
+  padding: 20px 0px !important;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  z-index: 999999;
+}
+
+.loader .spinner {
+  width: 128px;
+  height: 128px;
+  border: 3px solid var(--secondary);
+  border-bottom: 3px solid transparent;
+  border-radius: 50%;
+  position: relative;
+  -webkit-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.loader .spinner .inner {
+  width: 64px;
+  height: 64px;
+  border: 3px solid transparent;
+  border-top: 3px solid var(--secondary);
+  border-radius: 50%;
+  -webkit-animation: spinInner 1s linear infinite;
+          animation: spinInner 1s linear infinite;
+}
+
+.loader.hidden {
+  -webkit-animation: loaderSlideDown 1s;
+          animation: loaderSlideDown 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spinInner {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-720deg);
+            transform: rotate(-720deg);
+  }
+}
+
+@keyframes spinInner {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-720deg);
+            transform: rotate(-720deg);
+  }
+}
+
 .show_pass {
   position: absolute;
   top: 15px;
@@ -4327,6 +4415,13 @@ footer .copyrigths .payment {
     margin-bottom: 20px !important;
     width: 100% !important;
     display: block !important;
+  }
+  .login .login-contain .socail-media li {
+    -webkit-margin-end: 7px !important;
+            margin-inline-end: 7px !important;
+  }
+  .login .login-contain .data {
+    padding: 20px 10px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
