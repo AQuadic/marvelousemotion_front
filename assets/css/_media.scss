@@ -74,4 +74,17 @@
     width: 100% !important;
     margin-top: 15px !important;
   }
+
+  .single-order .content .flex-data {
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    align-content: flex-start !important;
+
+    h1 {
+      margin-bottom: 20px !important;
+      width: 100% !important;
+      display: block !important;
+    }
+  }
 }

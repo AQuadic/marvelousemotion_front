@@ -3004,7 +3004,7 @@ header .swiper-pagination .swiper-pagination-current {
 
 .login {
   width: 100%;
-  padding: 250px 0px 50px 0px;
+  padding: 150px 0px 50px 0px;
   background-color: #fff;
   position: relative;
   z-index: 9;
@@ -3085,6 +3085,56 @@ header .swiper-pagination .swiper-pagination-current {
   font-size: 25px;
   font-weight: 900;
   margin-bottom: 20px;
+}
+
+.login .login-contain h3 {
+  color: var(--secondary);
+  font-size: 18px;
+  font-weight: 900;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.login .login-contain .socail-media {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.login .login-contain .socail-media li {
+  -webkit-margin-end: 10px;
+          margin-inline-end: 10px;
+}
+
+.login .login-contain .socail-media li:last-child {
+  margin: 0px;
+}
+
+.login .login-contain .socail-media li a img {
+  width: 24px;
+  height: 24px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  opacity: .3;
+  -webkit-filter: invert(28%) sepia(72%) saturate(1558%) hue-rotate(350deg) brightness(93%) contrast(82%);
+          filter: invert(28%) sepia(72%) saturate(1558%) hue-rotate(350deg) brightness(93%) contrast(82%);
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.login .login-contain .socail-media li a:hover img {
+  opacity: 1;
+  -webkit-animation: tada .4s linear;
+          animation: tada .4s linear;
 }
 
 .login .forget_pass {
@@ -3291,6 +3341,141 @@ header .swiper-pagination .swiper-pagination-current {
      object-fit: contain;
   -webkit-filter: invert(52%) sepia(0%) saturate(2%) hue-rotate(65deg) brightness(95%) contrast(89%);
           filter: invert(52%) sepia(0%) saturate(2%) hue-rotate(65deg) brightness(95%) contrast(89%);
+}
+
+.show_pass {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  cursor: pointer;
+  color: #888;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-filter: invert(52%) sepia(0%) saturate(2%) hue-rotate(65deg) brightness(95%) contrast(89%);
+          filter: invert(52%) sepia(0%) saturate(2%) hue-rotate(65deg) brightness(95%) contrast(89%);
+}
+
+.single-order {
+  width: 100%;
+}
+
+.single-order .image-content {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.single-order .image-content img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.single-order .content {
+  width: 100%;
+}
+
+.single-order .content .flex-data {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.single-order .content .flex-data h1 {
+  color: var(--secondary);
+  font-size: 20px;
+  font-weight: 900;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px !important;
+}
+
+.single-order .content .flex-data a img {
+  width: 24px;
+  height: 24px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-margin-end: 15px;
+          margin-inline-end: 15px;
+}
+
+.single-order .content .text-desc {
+  font-weight: 900;
+  font-size: 18px;
+  color: var(--dark);
+  display: block;
+  margin-bottom: 15px;
+}
+
+.single-order .content p {
+  color: #808080;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.single-order .content .data-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-bottom: 15px;
+  padding: 10px 0px;
+  border-bottom: 1px solid #ddd;
+}
+
+.single-order .content .data-list li:last-child {
+  border: 0px !important;
+}
+
+.single-order .content .data-list li .name {
+  color: var(--primary);
+  font-size: 15px;
+  font-weight: 700;
+  -webkit-margin-end: 10px;
+          margin-inline-end: 10px;
+}
+
+.single-order .content .data-list li .data {
+  color: var(--dark);
+  font-size: 15px;
+  font-weight: 500;
+  -webkit-margin-end: 10px;
+          margin-inline-end: 10px;
+}
+
+.single-order .content .data-list li .data.green {
+  color: #080;
+}
+
+.single-order .content .data-list li .data.blue {
+  color: #008BD2;
+}
+
+.single-order .content .data-list li .data.red {
+  color: #f00;
 }
 
 .checkout .checkout-form .payment_method .form-check {
@@ -4101,6 +4286,25 @@ footer .copyrigths .payment {
   .profile-page .tab-pane .address-contain .data-list {
     width: 100% !important;
     margin-top: 15px !important;
+  }
+  .single-order .content .flex-data {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+    -ms-flex-line-pack: start !important;
+        align-content: flex-start !important;
+  }
+  .single-order .content .flex-data h1 {
+    margin-bottom: 20px !important;
+    width: 100% !important;
+    display: block !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
