@@ -197,6 +197,10 @@ ul {
   border: 0px !important;
 }
 
+.buttons-contain .btn-contain.red-btn {
+  background-color: #f00 !important;
+}
+
 .buttons-contain .btn-contain:nth-child(2) {
   background-color: var(--secondary);
   -webkit-margin-start: 10px;
@@ -3089,7 +3093,7 @@ header .swiper-pagination .swiper-pagination-current {
 
 .login .login-contain h3 {
   color: var(--secondary);
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 900;
   margin: 10px 0px;
   text-align: center;
@@ -3108,15 +3112,25 @@ header .swiper-pagination .swiper-pagination-current {
           align-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
+  margin-top: 20px;
+  padding-bottom: 20px !important;
 }
 
 .login .login-contain .socail-media li {
-  -webkit-margin-end: 10px;
-          margin-inline-end: 10px;
+  -webkit-margin-end: 15px;
+          margin-inline-end: 15px;
 }
 
 .login .login-contain .socail-media li:last-child {
   margin: 0px;
+}
+
+.login .login-contain .socail-media li a {
+  padding: 10px 12px;
+  background-color: #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
 }
 
 .login .login-contain .socail-media li a img {
@@ -3129,6 +3143,14 @@ header .swiper-pagination .swiper-pagination-current {
           filter: invert(28%) sepia(72%) saturate(1558%) hue-rotate(350deg) brightness(93%) contrast(82%);
   -webkit-transition: all .3s linear;
   transition: all .3s linear;
+}
+
+.login .login-contain .socail-media li a span {
+  color: var(--secondary);
+  font-size: 15px;
+  font-weight: 500;
+  -webkit-margin-start: 9px;
+          margin-inline-start: 9px;
 }
 
 .login .login-contain .socail-media li a:hover img {
