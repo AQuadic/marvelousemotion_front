@@ -25,12 +25,12 @@
 }
 
 *::-moz-selection {
-  background-color: #b44824;
+  background-color: #6E1214;
   color: #fff;
 }
 
 *::selection {
-  background-color: #b44824;
+  background-color: #6E1214;
   color: #fff;
 }
 
@@ -43,7 +43,7 @@
 }
 
 *::-webkit-scrollbar-thumb {
-  background: #b44824;
+  background: #6E1214;
   border-radius: 8px;
 }
 
@@ -352,7 +352,7 @@ ul {
 .product-box .content .buttons-data a, .product-box .content .buttons-data button {
   width: 40px;
   height: 40px;
-  background-color: rgba(180, 72, 36, 0.7);
+  background-color: rgba(110, 18, 20, 0.7);
   border-radius: 4px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1503,8 +1503,8 @@ ul {
 }
 
 :root {
-  --primary: #AE644C;
-  --secondary: #b44824;
+  --primary: #6E1214;
+  --secondary: #6E1214;
   --light: #fff;
   --dark: #000;
 }
@@ -1523,8 +1523,8 @@ ul {
 
 .navbar.scrolled {
   padding: 5px 0px;
-  -webkit-box-shadow: 0px 0px 10px rgba(180, 72, 36, 0.3);
-          box-shadow: 0px 0px 10px rgba(180, 72, 36, 0.3);
+  -webkit-box-shadow: 0px 0px 10px rgba(110, 18, 20, 0.3);
+          box-shadow: 0px 0px 10px rgba(110, 18, 20, 0.3);
 }
 
 .navbar.scrolled .brand-name img {
@@ -1553,7 +1553,7 @@ ul {
 .navbar .content .hamburger .line {
   width: 30px;
   height: 3px;
-  background: linear-gradient(45deg, #AE644C 0%, #b44824 100%);
+  background: linear-gradient(45deg, #6E1214 0%, #6E1214 100%);
   display: block;
   margin: 8px auto;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1811,7 +1811,7 @@ header .swiper-pagination .swiper-pagination-current {
 .banners .image-content.small-img {
   -webkit-padding-end: 100px;
           padding-inline-end: 100px;
-  background-color: rgba(180, 72, 36, 0.4);
+  background-color: rgba(110, 18, 20, 0.4);
   height: 250px;
   -webkit-transition: all .3s linear;
   transition: all .3s linear;
@@ -1919,7 +1919,7 @@ header .swiper-pagination .swiper-pagination-current {
           padding-inline-start: 30px;
   width: 100%;
   height: 100%;
-  border: 1px solid rgba(180, 72, 36, 0.4);
+  border: 1px solid rgba(110, 18, 20, 0.4);
   border-radius: 10px;
 }
 
@@ -2099,8 +2099,8 @@ header .swiper-pagination .swiper-pagination-current {
 
 .product-details .prodcutDetailsThumbsSlider::before {
   right: 0px;
-  background: -webkit-gradient(linear, right top, left top, from(#AE644C), to(transparent));
-  background: linear-gradient(-90deg, #AE644C, transparent);
+  background: -webkit-gradient(linear, right top, left top, from(#6E1214), to(transparent));
+  background: linear-gradient(-90deg, #6E1214, transparent);
 }
 
 .product-details .prodcutDetailsThumbsSlider .swiper-slide {
@@ -2128,7 +2128,7 @@ header .swiper-pagination .swiper-pagination-current {
 .product-details .add-data {
   width: 100%;
   height: 50px;
-  border: 1px solid #b44824;
+  border: 1px solid #6E1214;
   border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2215,7 +2215,7 @@ header .swiper-pagination .swiper-pagination-current {
           padding-inline-start: 30px;
   width: 100%;
   height: 100%;
-  border: 1px solid rgba(180, 72, 36, 0.4);
+  border: 1px solid rgba(110, 18, 20, 0.4);
   border-radius: 10px;
 }
 
@@ -2274,7 +2274,7 @@ header .swiper-pagination .swiper-pagination-current {
 }
 
 .product-details .content .flex-data .price {
-  color: #b44824;
+  color: #6E1214;
   font-size: 15px;
   font-weight: 700;
   margin: 0px;
@@ -2327,7 +2327,7 @@ header .swiper-pagination .swiper-pagination-current {
 }
 
 .product-details .content .list li a .title {
-  color: #b44824;
+  color: #6E1214;
   font-size: 15px;
   font-weight: 700;
   -webkit-margin-end: 10px;
@@ -2359,7 +2359,7 @@ header .swiper-pagination .swiper-pagination-current {
   width: 50px;
   height: 50px;
   background-color: #fff;
-  border: 1px solid #b44824;
+  border: 1px solid #6E1214;
   background-color: var(--primary);
   border-radius: 50%;
   display: -webkit-box;
@@ -2383,7 +2383,7 @@ header .swiper-pagination .swiper-pagination-current {
 }
 
 .product-details .content .button-contain .fav:hover {
-  background-color: #b44824;
+  background-color: #6E1214;
 }
 
 .product-details .content .button-contain .fav:hover img {
@@ -2397,8 +2397,8 @@ header .swiper-pagination .swiper-pagination-current {
   border: 0px;
   outline: none;
   border-radius: 50px;
-  background: -webkit-gradient(linear, left top, right top, from(#AE644C), to(#b44824)) !important;
-  background: linear-gradient(90deg, #AE644C, #b44824) !important;
+  background: -webkit-gradient(linear, left top, right top, from(#6E1214), to(#6E1214)) !important;
+  background: linear-gradient(90deg, #6E1214, #6E1214) !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2416,8 +2416,8 @@ header .swiper-pagination .swiper-pagination-current {
 }
 
 .product-details .content .button-contain .custom-btn:hover {
-  background: -webkit-gradient(linear, left top, right top, from(#b44824), to(#AE644C)) !important;
-  background: linear-gradient(90deg, #b44824, #AE644C) !important;
+  background: -webkit-gradient(linear, left top, right top, from(#6E1214), to(#6E1214)) !important;
+  background: linear-gradient(90deg, #6E1214, #6E1214) !important;
 }
 
 .product-details .content .button-contain .custom-btn:last-child {
@@ -2714,8 +2714,8 @@ header .swiper-pagination .swiper-pagination-current {
 
 .profile-page .tab-pane .nav li a:hover, .profile-page .tab-pane .nav li a.active {
   border-radius: 50px;
-  background: -webkit-gradient(linear, left top, right top, from(#AE644C), to(#b44824)) !important;
-  background: linear-gradient(90deg, #AE644C, #b44824) !important;
+  background: -webkit-gradient(linear, left top, right top, from(#6E1214), to(#6E1214)) !important;
+  background: linear-gradient(90deg, #6E1214, #6E1214) !important;
   color: #fff;
 }
 
@@ -2864,7 +2864,7 @@ header .swiper-pagination .swiper-pagination-current {
   outline: none;
   border-radius: 50px;
   background: #fff;
-  border: 1px solid #b44824;
+  border: 1px solid #6E1214;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2878,13 +2878,13 @@ header .swiper-pagination .swiper-pagination-current {
           justify-content: center;
   font-size: 15px;
   font-weight: 500;
-  color: #b44824;
+  color: #6E1214;
 }
 
 .cart .nav li a:hover, .cart .nav li a.active {
   border-radius: 50px;
-  background: -webkit-gradient(linear, left top, right top, from(#b44824), to(#AE644C)) !important;
-  background: linear-gradient(90deg, #b44824, #AE644C) !important;
+  background: -webkit-gradient(linear, left top, right top, from(#6E1214), to(#6E1214)) !important;
+  background: linear-gradient(90deg, #6E1214, #6E1214) !important;
   color: #fff;
 }
 
@@ -2915,7 +2915,7 @@ header .swiper-pagination .swiper-pagination-current {
   width: 100%;
   height: 100%;
   background-color: #fff;
-  border: 1px solid #b44824;
+  border: 1px solid #6E1214;
   border-radius: 50px;
   padding: 0px 20px;
   color: #000;
@@ -2955,8 +2955,8 @@ header .swiper-pagination .swiper-pagination-current {
   border: 0px;
   outline: none;
   border-radius: 50px;
-  background: -webkit-gradient(linear, left top, right top, from(#b44824), to(#AE644C));
-  background: linear-gradient(90deg, #b44824, #AE644C);
+  background: -webkit-gradient(linear, left top, right top, from(#6E1214), to(#6E1214));
+  background: linear-gradient(90deg, #6E1214, #6E1214);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2977,12 +2977,12 @@ header .swiper-pagination .swiper-pagination-current {
 }
 
 .discount-shape .form-contain .form-group .search-btn:hover {
-  background: -webkit-gradient(linear, left top, right top, from(#AE644C), to(#b44824));
-  background: linear-gradient(90deg, #AE644C, #b44824);
+  background: -webkit-gradient(linear, left top, right top, from(#6E1214), to(#6E1214));
+  background: linear-gradient(90deg, #6E1214, #6E1214);
 }
 
 .discount-shape span {
-  color: #b44824;
+  color: #6E1214;
   font-size: 15px;
   font-weight: 700;
 }
@@ -3640,8 +3640,8 @@ header .swiper-pagination .swiper-pagination-current {
   padding: 20px 30px;
   background-color: #fff;
   border-radius: 20px;
-  -webkit-box-shadow: 0px 0px 10px rgba(174, 100, 76, 0.4);
-          box-shadow: 0px 0px 10px rgba(174, 100, 76, 0.4);
+  -webkit-box-shadow: 0px 0px 10px rgba(110, 18, 20, 0.4);
+          box-shadow: 0px 0px 10px rgba(110, 18, 20, 0.4);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3712,7 +3712,7 @@ header .swiper-pagination .swiper-pagination-current {
 
 .shipping .box {
   width: 100%;
-  background-color: #b44824;
+  background-color: #6E1214;
   border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3829,7 +3829,7 @@ footer .content .socail-media li a:hover img {
 footer .content h1 {
   font-size: 25px;
   font-weight: 900;
-  color: #b44824;
+  color: #6E1214;
   margin-bottom: 24px;
 }
 
@@ -3866,7 +3866,7 @@ footer .content .links-contain .links li a {
 }
 
 footer .content .links-contain .links li a:hover {
-  color: #b44824;
+  color: #6E1214;
 }
 
 footer .content .form-contain .form-group {
@@ -3880,7 +3880,7 @@ footer .content .form-contain .form-group .form-control {
   width: 100%;
   height: 100%;
   background-color: #fff;
-  border: 1px solid #b44824;
+  border: 1px solid #6E1214;
   border-radius: 50px;
   padding: 0px 20px;
   color: #000;
@@ -3920,8 +3920,8 @@ footer .content .form-contain .form-group .search-btn {
   border: 0px;
   outline: none;
   border-radius: 50px;
-  background: -webkit-gradient(linear, left top, right top, from(#b44824), to(#AE644C));
-  background: linear-gradient(90deg, #b44824, #AE644C);
+  background: -webkit-gradient(linear, left top, right top, from(#6E1214), to(#6E1214));
+  background: linear-gradient(90deg, #6E1214, #6E1214);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3942,8 +3942,8 @@ footer .content .form-contain .form-group .search-btn {
 }
 
 footer .content .form-contain .form-group .search-btn:hover {
-  background: -webkit-gradient(linear, left top, right top, from(#AE644C), to(#b44824));
-  background: linear-gradient(90deg, #AE644C, #b44824);
+  background: -webkit-gradient(linear, left top, right top, from(#6E1214), to(#6E1214));
+  background: linear-gradient(90deg, #6E1214, #6E1214);
 }
 
 footer .content .list {
@@ -4139,7 +4139,7 @@ footer .copyrigths .payment {
   width: 100%;
   height: 100%;
   background-color: #fff;
-  border: 1px solid #b44824;
+  border: 1px solid #6E1214;
   border-radius: 50px;
   padding: 0px 20px;
   color: #000;
@@ -4239,7 +4239,7 @@ footer .copyrigths .payment {
   width: 100%;
   height: 100%;
   background-color: #fff;
-  border: 1px solid #b44824;
+  border: 1px solid #6E1214;
   border-radius: 50px;
   padding: 0px 20px;
   color: #000;
@@ -4279,8 +4279,8 @@ footer .copyrigths .payment {
   border: 0px;
   outline: none;
   border-radius: 50px;
-  background: -webkit-gradient(linear, left top, right top, from(#b44824), to(#AE644C));
-  background: linear-gradient(90deg, #b44824, #AE644C);
+  background: -webkit-gradient(linear, left top, right top, from(#6E1214), to(#6E1214));
+  background: linear-gradient(90deg, #6E1214, #6E1214);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4301,14 +4301,14 @@ footer .copyrigths .payment {
 }
 
 .modal-content .form-contain .form-group .search-btn:hover {
-  background: -webkit-gradient(linear, left top, right top, from(#AE644C), to(#b44824));
-  background: linear-gradient(90deg, #AE644C, #b44824);
+  background: -webkit-gradient(linear, left top, right top, from(#6E1214), to(#6E1214));
+  background: linear-gradient(90deg, #6E1214, #6E1214);
 }
 
 .modal-content .close {
   width: 30px;
   height: 30px;
-  background-color: #b44824;
+  background-color: #6E1214;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4368,8 +4368,8 @@ footer .copyrigths .payment {
     background-color: transparent !important;
   }
   .navbar .links-contain li a img {
-    -webkit-filter: invert(28%) sepia(72%) saturate(1558%) hue-rotate(318deg) brightness(93%) contrast(82%);
-            filter: invert(28%) sepia(72%) saturate(1558%) hue-rotate(318deg) brightness(93%) contrast(82%);
+    -webkit-filter: invert(12%) sepia(35%) saturate(5502%) hue-rotate(0deg) brightness(24%) contrast(100%);
+            filter: invert(12%) sepia(35%) saturate(5502%) hue-rotate(0deg) brightness(24%) contrast(100%);
   }
   header .swiper-button-next, header .swiper-button-prev {
     top: unset !important;

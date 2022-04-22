@@ -2,8 +2,8 @@
 @import 'animations';
 
 :root {
-  --primary: #AE644C;
-  --secondary: #b44824;
+  --primary: #6E1214;
+  --secondary: #6E1214;
   --light: #fff;
   --dark: #000;
 }
@@ -20,7 +20,7 @@
 
   &.scrolled {
     padding: 5px 0px;
-    box-shadow: 0px 0px 10px rgba($color: #b44824, $alpha: 0.3);
+    box-shadow: 0px 0px 10px rgba($color: #6E1214, $alpha: 0.3);
 
     .brand-name img {
       height: 70px !important;
@@ -39,7 +39,7 @@
       .line { 
         width: 30px;
         height: 3px;
-        background: linear-gradient(45deg, #AE644C 0%, #b44824 100%);
+        background: linear-gradient(45deg, #6E1214 0%, #6E1214 100%);
         display: block;
         margin: 8px auto;
         transition: all 0.3s ease-in-out;
@@ -261,7 +261,7 @@ header {
 
     &.small-img {
       padding-inline-end: 100px;
-      background-color: rgba($color: #b44824, $alpha: 0.4);
+      background-color: rgba($color: #6E1214, $alpha: 0.4);
       height: 250px;
       transition: all .3s linear;
       margin-bottom: 40px;
@@ -352,7 +352,7 @@ header {
           padding-inline-start: 30px;
           width: 100%;
           height: 100%;
-          border: 1px solid rgba($color: #b44824, $alpha: 0.4);
+          border: 1px solid rgba($color: #6E1214, $alpha: 0.4);
           border-radius: 10px;
         }
       }
@@ -530,7 +530,7 @@ header {
 
     &::before{
       right: 0px;
-      background: linear-gradient(-90deg , #AE644C , transparent);
+      background: linear-gradient(-90deg , #6E1214 , transparent);
     }
 
     .swiper-slide{
@@ -558,7 +558,7 @@ header {
   .add-data {
     width: 100%;
     height: 50px;
-    border: 1px solid #b44824;
+    border: 1px solid #6E1214;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -618,7 +618,7 @@ header {
         padding-inline-start: 30px;
         width: 100%;
         height: 100%;
-        border: 1px solid rgba($color: #b44824, $alpha: 0.4);
+        border: 1px solid rgba($color: #6E1214, $alpha: 0.4);
         border-radius: 10px;
       }
     }
@@ -663,7 +663,7 @@ header {
       }
 
       .price {
-        color: #b44824;
+        color: #6E1214;
         font-size: 15px;
         font-weight: 700;
         margin: 0px;
@@ -709,7 +709,7 @@ header {
           align-content: center;
 
           .title {
-            color: #b44824;
+            color: #6E1214;
             font-size: 15px;
             font-weight: 700;
             margin-inline-end: 10px;
@@ -735,7 +735,7 @@ header {
         width: 50px;
         height: 50px;
         background-color: #fff;
-        border: 1px solid #b44824;
+        border: 1px solid #6E1214;
         background-color: var(--primary);
         border-radius: 50%;
         display: flex;
@@ -750,7 +750,7 @@ header {
         }
 
         &:hover {
-          background-color: #b44824;
+          background-color: #6E1214;
 
           img {
             animation: tada .4s linear;
@@ -764,7 +764,7 @@ header {
         border: 0px;
         outline: none;
         border-radius: 50px;
-        background: linear-gradient(90deg, #AE644C, #b44824) !important;
+        background: linear-gradient(90deg, #6E1214, #6E1214) !important;
         display: flex;
         align-items: center;
         align-content: center;
@@ -774,7 +774,7 @@ header {
         color: #fff;
     
         &:hover {
-          background: linear-gradient(90deg, #b44824, #AE644C) !important;
+          background: linear-gradient(90deg, #6E1214, #6E1214) !important;
         }
   
         &:last-child {
@@ -1009,7 +1009,7 @@ header {
       
           &:hover, &.active {
             border-radius: 50px;
-            background: linear-gradient(90deg, #AE644C, #b44824) !important;
+            background: linear-gradient(90deg, #6E1214, #6E1214) !important;
             color: #fff;
           }
         }
@@ -1144,18 +1144,18 @@ header {
         outline: none;
         border-radius: 50px;
         background: #fff;
-        border: 1px solid #b44824;
+        border: 1px solid #6E1214;
         display: flex;
         align-items: center;
         align-content: center;
         justify-content: center;
         font-size: 15px;
         font-weight: 500;
-        color: #b44824;
+        color: #6E1214;
     
         &:hover, &.active {
           border-radius: 50px;
-          background: linear-gradient(90deg, #b44824, #AE644C) !important;
+          background: linear-gradient(90deg, #6E1214, #6E1214) !important;
           color: #fff;
         }
       }
@@ -1187,7 +1187,7 @@ header {
       width: 100%;
       height: 100%;
       background-color: #fff;
-      border: 1px solid #b44824;
+      border: 1px solid #6E1214;
       border-radius: 50px;
       padding: 0px 20px;
       color: #000;
@@ -1208,7 +1208,7 @@ header {
       border: 0px;
       outline: none;
       border-radius: 50px;
-      background: linear-gradient(90deg, #b44824, #AE644C);
+      background: linear-gradient(90deg, #6E1214, #6E1214);
       display: flex;
       align-items: center;
       align-content: center;
@@ -1221,13 +1221,13 @@ header {
       left: 5px;
 
       &:hover {
-        background: linear-gradient(90deg, #AE644C, #b44824);
+        background: linear-gradient(90deg, #6E1214, #6E1214);
       }
     }
   }
 
   span {
-    color: #b44824;
+    color: #6E1214;
     font-size: 15px;
     font-weight: 700;
   }
@@ -1746,7 +1746,7 @@ header {
     padding: 20px 30px;
     background-color: #fff;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba($color: #AE644C, $alpha: 0.4);
+    box-shadow: 0px 0px 10px rgba($color: #6E1214, $alpha: 0.4);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1804,7 +1804,7 @@ header {
 
   .box {
     width: 100%;
-    background-color: #b44824;
+    background-color: #6E1214;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -1895,7 +1895,7 @@ footer {
     h1 {
       font-size: 25px;
       font-weight: 900;
-      color: #b44824;
+      color: #6E1214;
       margin-bottom: 24px;
     }
 
@@ -1921,7 +1921,7 @@ footer {
             font-weight: 500;
             
             &:hover {
-              color: #b44824;
+              color: #6E1214;
             }
           }
         }
@@ -1938,7 +1938,7 @@ footer {
         width: 100%;
         height: 100%;
         background-color: #fff;
-        border: 1px solid #b44824;
+        border: 1px solid #6E1214;
         border-radius: 50px;
         padding: 0px 20px;
         color: #000;
@@ -1959,7 +1959,7 @@ footer {
         border: 0px;
         outline: none;
         border-radius: 50px;
-        background: linear-gradient(90deg, #b44824, #AE644C);
+        background: linear-gradient(90deg, #6E1214, #6E1214);
         display: flex;
         align-items: center;
         align-content: center;
@@ -1972,7 +1972,7 @@ footer {
         left: 5px;
 
         &:hover {
-          background: linear-gradient(90deg, #AE644C, #b44824);
+          background: linear-gradient(90deg, #6E1214, #6E1214);
         }
       }
     }
@@ -2129,7 +2129,7 @@ footer {
       width: 100%;
       height: 100%;
       background-color: #fff;
-      border: 1px solid #b44824;
+      border: 1px solid #6E1214;
       border-radius: 50px;
       padding: 0px 20px;
       color: #000;
@@ -2200,7 +2200,7 @@ footer {
       width: 100%;
       height: 100%;
       background-color: #fff;
-      border: 1px solid #b44824;
+      border: 1px solid #6E1214;
       border-radius: 50px;
       padding: 0px 20px;
       color: #000;
@@ -2221,7 +2221,7 @@ footer {
       border: 0px;
       outline: none;
       border-radius: 50px;
-      background: linear-gradient(90deg, #b44824, #AE644C);
+      background: linear-gradient(90deg, #6E1214, #6E1214);
       display: flex;
       align-items: center;
       align-content: center;
@@ -2234,7 +2234,7 @@ footer {
       left: 5px;
 
       &:hover {
-        background: linear-gradient(90deg, #AE644C, #b44824);
+        background: linear-gradient(90deg, #6E1214, #6E1214);
       }
     }
   }
@@ -2242,7 +2242,7 @@ footer {
   .close {
     width: 30px;
     height: 30px;
-    background-color: #b44824;
+    background-color: #6E1214;
     border-radius: 50%;
     display: flex;
     align-items: center;

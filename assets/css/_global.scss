@@ -23,7 +23,7 @@
     scroll-behavior: smooth;
 
     &::selection{
-        background-color: #b44824;
+        background-color: #6E1214;
         color: #fff; 
     }
     
@@ -36,7 +36,7 @@
     }
     
     &::-webkit-scrollbar-thumb {
-        background: #b44824; 
+        background: #6E1214; 
         border-radius: 8px;
     }
 
@@ -284,7 +284,7 @@ ul{
             a, button {
                 width: 40px;
                 height: 40px;
-                background-color: rgba($color: #b44824, $alpha: 0.7);
+                background-color: rgba($color: #6E1214, $alpha: 0.7);
                 border-radius: 4px;
                 display: flex;
                 align-content: center;
