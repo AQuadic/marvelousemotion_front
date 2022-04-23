@@ -2212,4 +2212,8 @@ footer {
   }
 }
 
+.form-contain .form-group .form-control {
+  padding-inline-end: 0px !important;
+}
+
 @import 'media';
