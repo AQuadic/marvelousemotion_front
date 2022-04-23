@@ -233,23 +233,31 @@ ul{
 
     .content {
         width: 100%;
-        padding: 20px 10px;
+        padding: 10px 10px;
 
-        h2 {
+        .head {
             color: var(--dark);
-            font-size: 18px;
+            font-size: 13px;
             font-weight: 700;
             margin: 0px;
-            line-height: 30px;
+            display: block;
+            text-align: center;
+        }
+
+        p {
+            color: #808080;
+            font-size: 12px;
+            font-weight: 500;
+            margin-top: 10px;
             text-align: center;
         }
 
         .price {
             display: flex;
-            justify-content: flex-end;
+            justify-content: flex-start;
             align-items: center;
             align-content: center;
-            margin: 20px 0px;
+            margin: 10px 0px;
 
             p {
                 margin: 0px;
@@ -260,7 +268,7 @@ ul{
                 }
 
                 &.price-after {
-                    color: #ddd;
+                    color: #333;
                     font-size: 15px;
                     font-weight: 500;
                     padding: 0px 10px;
@@ -269,8 +277,8 @@ ul{
 
                 &.price-before {
                     color: var(--primary);
-                    font-size: 15px;
-                    font-weight: 700;
+                    font-size: 18px;
+                    font-weight: 900;
                 }
             }
         }
@@ -280,10 +288,12 @@ ul{
             align-items: center;
             align-content: center;
             justify-content: space-around;
+            width: 100%;
 
-            a, button {
-                width: 40px;
-                height: 40px;
+
+            .btn-data {
+                width: 49% !important;
+                height: 30px;
                 background-color: rgba($color: #6E1214, $alpha: 0.7);
                 border-radius: 4px;
                 display: flex;
@@ -293,21 +303,29 @@ ul{
                 align-items: center;
                 justify-content: center;
                 overflow: hidden;
-      
-                img {
-                  width: 24px;
-                  height: 24px;
-                  object-fit: contain;
+            
+                span {
+                    color: #fff;
+                    font-size: 10px;
+                    font-weight: 500;
+                    margin-inline-start: 4px;
                 }
 
-                &.active {
-                    background-color: var(--secondary) !important;
+                img {
+                    
+                  width: 15px;
+                  height: 15px;
+                  object-fit: contain;
                 }
 
                 &:hover {
                     img {
-                        animation: fadeInLeft .4s linear;
+                        animation: none;
                     }
+                }
+
+                &.active {
+                    background-color: var(--secondary) !important;
                 }
             }
         }
