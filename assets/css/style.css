@@ -4295,6 +4295,38 @@ footer .copyrigths .payment {
   opacity: 1 !important;
 }
 
+.contact-us {
+  width: 100%;
+  padding: 30px 0px;
+}
+
+.contact-us .form-contain {
+  width: 100%;
+  padding: 30px 15px;
+  background-color: #fff;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+}
+
+.contact-us .form-contain .form-group.textarea {
+  height: 100px !important;
+  border-radius: 5px !important;
+}
+
+.contact-us .form-contain .form-group.textarea .form-control {
+  resize: none !important;
+  border-radius: 15px !important;
+  height: 100%;
+  padding: 10px 10px;
+}
+
+.contact-us .form-contain .buttons-contain {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
 .form-contain .form-group .form-control {
   -webkit-padding-end: 0px !important;
           padding-inline-end: 0px !important;
