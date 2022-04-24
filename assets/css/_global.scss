@@ -134,6 +134,7 @@ ul{
     display: flex;
     align-items: center;
     align-content: center;
+    flex-wrap: wrap;
 
     .btn-contain {
         width: 150px;
@@ -150,14 +151,19 @@ ul{
         z-index: 9;
         outline: none !important;
         border: 0px !important;
+        margin-inline-start: 10px;
 
         &.red-btn {
             background-color: #f00 !important;
         }
 
-        &:nth-child(2) {
+        &:last-child {
             background-color: var(--secondary);
             margin-inline-start: 10px;
+        }
+
+        &.active {
+            background-color: #f00 !important;
         }
 
         &::after {

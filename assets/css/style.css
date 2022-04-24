@@ -171,6 +171,8 @@ ul {
           align-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .buttons-contain .btn-contain {
@@ -195,16 +197,22 @@ ul {
   z-index: 9;
   outline: none !important;
   border: 0px !important;
+  -webkit-margin-start: 10px;
+          margin-inline-start: 10px;
 }
 
 .buttons-contain .btn-contain.red-btn {
   background-color: #f00 !important;
 }
 
-.buttons-contain .btn-contain:nth-child(2) {
+.buttons-contain .btn-contain:last-child {
   background-color: var(--secondary);
   -webkit-margin-start: 10px;
           margin-inline-start: 10px;
+}
+
+.buttons-contain .btn-contain.active {
+  background-color: #f00 !important;
 }
 
 .buttons-contain .btn-contain::after {
