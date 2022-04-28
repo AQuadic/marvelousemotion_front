@@ -2236,6 +2236,14 @@ header .swiper-pagination .swiper-pagination-current {
   margin: 0px;
 }
 
+.product-details .content .flex-data .after {
+  color: #808080;
+  text-decoration: line-through;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0px;
+}
+
 .product-details .content .flex-data .offer {
   padding: 10px 20px;
   background-color: #8CC540;
