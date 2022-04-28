@@ -722,6 +722,15 @@ header {
         }
       }
     }
+
+    .buttons-contain {
+      .btn-contain {
+        width: unset !important;
+        padding: 15px 10px !important;
+        margin-top: 10px;
+        min-width: 120px !important;
+      }
+    }
   }
 }
 
