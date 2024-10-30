@@ -16,6 +16,60 @@
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
+
+    <div class="first-bar" style="background-color: gray;">
+      <div class="container">
+        <div class="first-barContent">
+          <p>
+            <img src="./assets/images/newUSer.svg" alt="User">
+            مستخدم جديد
+        </p>
+        <p>
+          <img src="./assets/images/navLogout.svg" alt="login">
+          تسجيل الدخول
+        </p>
+        <p>
+          <img src="./assets/images/lang.svg" alt="lang">
+          English 
+        </p>
+        <section class="currency-dropdown">
+          <p id="currency-toggle">
+            <img src="./assets/images/flag.svg" alt="login" />
+            AED
+            <img src="./assets/images/dropdown.svg" alt="Dropdown">
+          </p>
+          <div class="dropdown-content" id="currency-options">
+            <p>USD</p>
+            <p>EUR</p>
+            <p>GBP</p>
+            <p>AED</p>
+          </div>
+        </section>
+        
+        
+        </div>
+      </div>
+    </div>
+
+    <div class="offer">
+      <div class="container" style="justify-content: space-between;">
+      <p class="flagIcon">
+        عروض اليوم الوطني متوفرة الآن
+        <img src="./assets/images/flag.svg" alt="Flag">
+      </p>
+      <div class="navContacts">
+        <p class="contact-details">
+          marvelous_emotion
+          <img src="./assets/images/instagram.svg" alt="Instagram">
+        </p>
+        <p class="contact-details">
+          +971 50 992 6663
+          <img src="./assets/images/phoneIcon.svg" alt="Phone">
+        </p>
+      </div>
+      </div>
+    </div>
+
     <nav class="navbar">
       <div class="container">
         <div class="content">
@@ -25,140 +79,89 @@
             <span class="line"></span>
           </div>
 
-          <a href="#" class="brand-name">
-            <img src="assets/images/logo.png" alt="">
-          </a>
-
-          <ul class="navbar-nav">
+          <ul class="navbar-nave">
             <li>
-              <a href="#" class="active">
-                الرئيسية
-              </a>
+              <img src="./assets/images/user-profile.svg" alt="User Profile">
             </li>
 
             <li>
               <a href="#">
-                من نحن
+                <img src="./assets/images/proicons_cart.svg" alt="Cart">
               </a>
             </li>
 
-            <li>
-              <a href="#">
-                المنتاجات
-              </a>
-            </li>
-
-            <li>
-              <a href="#">
-                الاكثر مبيعا
-              </a>
-            </li>
-
-            <li>
-              <a href="#">
-                التخفيضات
-              </a>
-            </li>
-
-            <li>
-              <a href="#">
-                تواصل معنا
-              </a>
-            </li>
           </ul>
 
+          <a href="#" class="brand-name">
+            <img src="assets/images/brand_name.svg" alt="logo">
+          </a>
+
           <ul class="links-contain">
-            <li>
-              <a href="#">
-                <img src="assets/images/user.svg" alt="">
-              </a>
-            </li>
-
-            <li>
-              <a href="#">
-                <img class="cart-list" src="assets/images/cart.svg" alt="">
-              </a>
-            </li>
-
-            <li>
-              <a href="#">
-                <img src="assets/images/heart.svg" alt="">
-              </a>
-            </li>
-
-            <li>
-              <a href="#" data-toggle="modal" data-target="#exampleModalLong">
-                <img src="assets/images/search.svg" alt="">
-              </a>
-            </li>
+            <div class="input-group">
+              <span class="" id="basic-addon1">
+                <img class="search-icon" src="./assets/images/iconoir_search.svg" alt="Search">
+              </span>
+              <input type="text" class="form-control" placeholder="ما الذي تبحثين عنه ؟" aria-label="Search" aria-describedby="basic-addon1" />
+            </div>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!--search modal-->
-    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body">
-            <form class="form-contain">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder=" ابحث هنا " />
-
-                <button class="search-btn">
-                  بحث 
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
+    <section class="thirdBar">
+      <div class="container">
+      <ul>
+        <li><a href="">الرئيسية</a></li>
+        <li><a href="">المنتجات</a></li>
+        <li><a href="">الأكثر مبيعاً</a></li>
+        <li><a href="">التخفيضات والعروض</a></li>
+        <li><a href="">تواصل معنا</a></li>
+        <li><a href="">طلبات الجملة</a></li>
+      </ul>
       </div>
-    </div>
+    </section>
 
     <main>
-      <header>
-        <div class="swiper-container header-swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <a href="products.html" class="item">
-                <img src="assets/images/header_2.jpg" loading="lazy" alt="" class="header-img"/>
-              </a>
-            </div>
 
-            <div class="swiper-slide">
-              <a href="products.html" class="item">
-                <img src="assets/images/header_1.jpg" loading="lazy" alt="" class="header-img"/>
-              </a>
-            </div>
+      <section>
+        <div class="container">
+          <div class="headerImg">
+            <img src="./assets/images/headerImg.webp" alt="Image">
+            <img src="./assets/images/headerImg.webp" class="sec_Img" alt="Image">
           </div>
         </div>
-      </header>
+      </section>
 
-      <section class="banners general-section">
+      <section class="shopping">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-12 mb-2">
-              <a href="#" class="image-content small-img">
-                <img src="assets/images/header_2.jpg" alt="">
-              </a>
+          <div class="cont-heading">
+            <h1>تسوق حسب القسم</h1>
+            <h2>تصفح أقسام منتجاتنا التى انتقت لك بعناية</h2>
+          </div>
+          <div class="dept-products">
+            <div>
+              <img src="./assets/images/product.webp" alt="Product">
+              <p>خشب العود</p>
             </div>
-
-            <div class="col-lg-6 col-12 mb-2">
-              <a href="#" class="image-content small-img">
-                <img src="assets/images/banner_1.webp" alt="">
-              </a>
+            <div>
+              <img src="./assets/images/product.webp" alt="Product">
+              <p>العطور الفاخرة</p>
             </div>
-
-            <div class="col-lg-6 col-12 mb-2">
-              <a href="#" class="image-content small-img">
-                <img src="assets/images/header_2.jpg" alt="">
-              </a>
+            <div>
+              <img src="./assets/images/product.webp" alt="Product">
+              <p>الأدهان</p>
             </div>
-
-            <div class="col-lg-6 col-12 mb-2">
-              <a href="#" class="image-content small-img">
-                <img src="assets/images/banner_1.webp" alt="">
-              </a>
+            <div>
+              <img src="./assets/images/product.webp" alt="Product">
+              <p>نوادر العود</p>
+            </div>
+            <div>
+              <img src="./assets/images/product.webp" alt="Product">
+              <p>صناديق الاهداء</p>
+            </div>
+            <div>
+              <img src="./assets/images/product.webp" alt="Product">
+              <p>منتجات أخرى</p>
             </div>
           </div>
         </div>
@@ -172,49 +175,32 @@
             </h1>
 
             <p>
-              هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة
+              تشكيلة المنتجات التي فضلها عملائنا والأكثر مبيعاً لدينا
             </p>
           </div>
 
           <div class="row">
-            <div class="col-lg-3 col-12 mb-4">
+            <div class="col-lg-3 col-6 mb-4">
               <div class="product-box">
                   <div class="image-content">
-                    <img src="assets/images/product_1.webp" alt="">
+                    <img src="assets/images/miniproduct.webp" alt="Product" class="product-img">
+                    <img src="./assets/images/fav.svg" class="fav-icon" alt="Favorite">
                   </div>
       
                   <div class="content">
                     <a href="#" class="head">
-                      مجموعة ادهان فنتج وخنين والخلطة النجدية
+                      عطر كتاليا
                     </a>
 
                     <p>
-                      مجموعة ادهان فنتج وخنين والخلطة 
+                      العطور الفاخرة
                     </p>
       
-                    <div class="price">
-                      <p class="price-before">
-                        350 د.ر
-                      </p>
-      
-                      <p class="price-after">
-                        220 د.ر 
-                      </p>
-      
-                    </div>
-      
                     <div class="buttons-data">
-                      <button type="button" class="btn-data add-cart">
-                        <img src="assets/images/cart.svg" alt="">
-                        <span>
-                          اضف الي السلة
-                        </span>
-                      </button>
 
                       <button type="button" class="btn-data">
-                        <img src="assets/images/heart.svg" alt="">
                         <span>
-                          اضف الي المفضلة
+                          تفاصيل المنتج
                         </span>
                       </button>
                     </div>
@@ -222,44 +208,27 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-12 mb-4">
+            <div class="col-lg-3 col-6 mb-4">
               <div class="product-box">
                   <div class="image-content">
-                    <img src="assets/images/product_1.webp" alt="">
+                    <img src="assets/images/miniproduct.webp" alt="Product" class="product-img">
+                    <img src="./assets/images/fav.svg" class="fav-icon" alt="Favorite">
                   </div>
       
                   <div class="content">
                     <a href="#" class="head">
-                      مجموعة ادهان فنتج وخنين والخلطة النجدية
+                      عطر كتاليا
                     </a>
 
                     <p>
-                      مجموعة ادهان فنتج وخنين والخلطة 
+                      العطور الفاخرة
                     </p>
       
-                    <div class="price">
-                      <p class="price-before">
-                        350 د.ر
-                      </p>
-      
-                      <p class="price-after">
-                        220 د.ر 
-                      </p>
-      
-                    </div>
-      
                     <div class="buttons-data">
-                      <button type="button" class="btn-data add-cart">
-                        <img src="assets/images/cart.svg" alt="">
-                        <span>
-                          اضف الي السلة
-                        </span>
-                      </button>
 
                       <button type="button" class="btn-data">
-                        <img src="assets/images/heart.svg" alt="">
                         <span>
-                          اضف الي المفضلة
+                          تفاصيل المنتج
                         </span>
                       </button>
                     </div>
@@ -267,44 +236,27 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-12 mb-4">
+            <div class="col-lg-3 col-6 mb-4">
               <div class="product-box">
                   <div class="image-content">
-                    <img src="assets/images/product_1.webp" alt="">
+                    <img src="assets/images/miniproduct.webp" alt="Product" class="product-img">
+                    <img src="./assets/images/fav.svg" class="fav-icon" alt="Favorite">
                   </div>
       
                   <div class="content">
                     <a href="#" class="head">
-                      مجموعة ادهان فنتج وخنين والخلطة النجدية
+                      عطر كتاليا
                     </a>
 
                     <p>
-                      مجموعة ادهان فنتج وخنين والخلطة 
+                      العطور الفاخرة
                     </p>
       
-                    <div class="price">
-                      <p class="price-before">
-                        350 د.ر
-                      </p>
-      
-                      <p class="price-after">
-                        220 د.ر 
-                      </p>
-      
-                    </div>
-      
                     <div class="buttons-data">
-                      <button type="button" class="btn-data add-cart">
-                        <img src="assets/images/cart.svg" alt="">
-                        <span>
-                          اضف الي السلة
-                        </span>
-                      </button>
 
                       <button type="button" class="btn-data">
-                        <img src="assets/images/heart.svg" alt="">
                         <span>
-                          اضف الي المفضلة
+                          تفاصيل المنتج
                         </span>
                       </button>
                     </div>
@@ -312,44 +264,27 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-12 mb-4">
+            <div class="col-lg-3 col-6 mb-4">
               <div class="product-box">
                   <div class="image-content">
-                    <img src="assets/images/product_1.webp" alt="">
+                    <img src="assets/images/miniproduct.webp" alt="Product" class="product-img">
+                    <img src="./assets/images/fav.svg" class="fav-icon" alt="Favorite">
                   </div>
       
                   <div class="content">
                     <a href="#" class="head">
-                      مجموعة ادهان فنتج وخنين والخلطة النجدية
+                      عطر كتاليا
                     </a>
 
                     <p>
-                      مجموعة ادهان فنتج وخنين والخلطة 
+                      العطور الفاخرة
                     </p>
       
-                    <div class="price">
-                      <p class="price-before">
-                        350 د.ر
-                      </p>
-      
-                      <p class="price-after">
-                        220 د.ر 
-                      </p>
-      
-                    </div>
-      
                     <div class="buttons-data">
-                      <button type="button" class="btn-data add-cart">
-                        <img src="assets/images/cart.svg" alt="">
-                        <span>
-                          اضف الي السلة
-                        </span>
-                      </button>
 
                       <button type="button" class="btn-data">
-                        <img src="assets/images/heart.svg" alt="">
                         <span>
-                          اضف الي المفضلة
+                          تفاصيل المنتج
                         </span>
                       </button>
                     </div>
@@ -357,44 +292,27 @@
                 </div>
             </div>
             
-            <div class="col-lg-3 col-12 mb-4">
+            <div class="col-lg-3 col-6 mb-4">
               <div class="product-box">
                   <div class="image-content">
-                    <img src="assets/images/product_1.webp" alt="">
+                    <img src="assets/images/miniproduct.webp" alt="Product" class="product-img">
+                    <img src="./assets/images/fav.svg" class="fav-icon" alt="Favorite">
                   </div>
       
                   <div class="content">
                     <a href="#" class="head">
-                      مجموعة ادهان فنتج وخنين والخلطة النجدية
+                      عطر كتاليا
                     </a>
 
                     <p>
-                      مجموعة ادهان فنتج وخنين والخلطة 
+                      العطور الفاخرة
                     </p>
       
-                    <div class="price">
-                      <p class="price-before">
-                        350 د.ر
-                      </p>
-      
-                      <p class="price-after">
-                        220 د.ر 
-                      </p>
-      
-                    </div>
-      
                     <div class="buttons-data">
-                      <button type="button" class="btn-data add-cart">
-                        <img src="assets/images/cart.svg" alt="">
-                        <span>
-                          اضف الي السلة
-                        </span>
-                      </button>
 
                       <button type="button" class="btn-data">
-                        <img src="assets/images/heart.svg" alt="">
                         <span>
-                          اضف الي المفضلة
+                          تفاصيل المنتج
                         </span>
                       </button>
                     </div>
@@ -402,44 +320,27 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-12 mb-4">
+            <div class="col-lg-3 col-6 mb-4">
               <div class="product-box">
                   <div class="image-content">
-                    <img src="assets/images/product_1.webp" alt="">
+                    <img src="assets/images/miniproduct.webp" alt="Product" class="product-img">
+                    <img src="./assets/images/fav.svg" class="fav-icon" alt="Favorite">
                   </div>
       
                   <div class="content">
                     <a href="#" class="head">
-                      مجموعة ادهان فنتج وخنين والخلطة النجدية
+                      عطر كتاليا
                     </a>
 
                     <p>
-                      مجموعة ادهان فنتج وخنين والخلطة 
+                      العطور الفاخرة
                     </p>
       
-                    <div class="price">
-                      <p class="price-before">
-                        350 د.ر
-                      </p>
-      
-                      <p class="price-after">
-                        220 د.ر 
-                      </p>
-      
-                    </div>
-      
                     <div class="buttons-data">
-                      <button type="button" class="btn-data add-cart">
-                        <img src="assets/images/cart.svg" alt="">
-                        <span>
-                          اضف الي السلة
-                        </span>
-                      </button>
 
                       <button type="button" class="btn-data">
-                        <img src="assets/images/heart.svg" alt="">
                         <span>
-                          اضف الي المفضلة
+                          تفاصيل المنتج
                         </span>
                       </button>
                     </div>
@@ -447,44 +348,27 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-12 mb-4">
+            <div class="col-lg-3 col-6 mb-4">
               <div class="product-box">
                   <div class="image-content">
-                    <img src="assets/images/product_1.webp" alt="">
+                    <img src="assets/images/miniproduct.webp" alt="Product" class="product-img">
+                    <img src="./assets/images/fav.svg" class="fav-icon" alt="Favorite">
                   </div>
       
                   <div class="content">
                     <a href="#" class="head">
-                      مجموعة ادهان فنتج وخنين والخلطة النجدية
+                      عطر كتاليا
                     </a>
 
                     <p>
-                      مجموعة ادهان فنتج وخنين والخلطة 
+                      العطور الفاخرة
                     </p>
       
-                    <div class="price">
-                      <p class="price-before">
-                        350 د.ر
-                      </p>
-      
-                      <p class="price-after">
-                        220 د.ر 
-                      </p>
-      
-                    </div>
-      
                     <div class="buttons-data">
-                      <button type="button" class="btn-data add-cart">
-                        <img src="assets/images/cart.svg" alt="">
-                        <span>
-                          اضف الي السلة
-                        </span>
-                      </button>
 
                       <button type="button" class="btn-data">
-                        <img src="assets/images/heart.svg" alt="">
                         <span>
-                          اضف الي المفضلة
+                          تفاصيل المنتج
                         </span>
                       </button>
                     </div>
@@ -492,44 +376,27 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-12 mb-4">
+            <div class="col-lg-3 col-6 mb-4">
               <div class="product-box">
                   <div class="image-content">
-                    <img src="assets/images/product_1.webp" alt="">
+                    <img src="assets/images/miniproduct.webp" alt="Product" class="product-img">
+                    <img src="./assets/images/fav.svg" class="fav-icon" alt="Favorite">
                   </div>
       
                   <div class="content">
                     <a href="#" class="head">
-                      مجموعة ادهان فنتج وخنين والخلطة النجدية
+                      عطر كتاليا
                     </a>
 
                     <p>
-                      مجموعة ادهان فنتج وخنين والخلطة 
+                      العطور الفاخرة
                     </p>
       
-                    <div class="price">
-                      <p class="price-before">
-                        350 د.ر
-                      </p>
-      
-                      <p class="price-after">
-                        220 د.ر 
-                      </p>
-      
-                    </div>
-      
                     <div class="buttons-data">
-                      <button type="button" class="btn-data add-cart">
-                        <img src="assets/images/cart.svg" alt="">
-                        <span>
-                          اضف الي السلة
-                        </span>
-                      </button>
 
                       <button type="button" class="btn-data">
-                        <img src="assets/images/heart.svg" alt="">
                         <span>
-                          اضف الي المفضلة
+                          تفاصيل المنتج
                         </span>
                       </button>
                     </div>
@@ -540,7 +407,7 @@
             <div class="col-12">
               <div class="buttons-contain">
                 <a href="#" class="btn-contain">
-                  شاهد المزيد
+                  شاهد المزيد من الأكثر مبيعاً
                 </a>
               </div>
             </div>
@@ -555,353 +422,249 @@
         </div>
       </section>
 
-      <section class="banners general-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 mb-4">
-              <a href="#" class="image-content large-img">
-                <img src="assets/images/header_1.jpg" alt="">
-              </a>
-            </div>
-
-            <div class="col-lg-6 col-12 mb-4">
-              <a href="#" class="image-content small-img">
-                <img src="assets/images/header_2.jpg" alt="">
-              </a>
-            </div>
-
-            <div class="col-lg-6 col-12 mb-4">
-              <a href="#" class="image-content small-img">
-                <img src="assets/images/banner_1.webp" alt="">
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="products bk-shape general-section">
+      <section class="products general-section">
         <div class="container">
           <div class="heading">
             <h1>
-              احدث المنتاجات
+              أحدث المنتجات
             </h1>
 
             <p>
-              هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة
+              إليك أحدث ما نقدمه لعملائنا المميزين
             </p>
           </div>
 
-          <div class="swiper-container brands">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="product-box">
-                  <div class="image-content">
-                    <img src="assets/images/product_1.webp" alt="">
-                  </div>
-      
-                  <div class="content">
-                    <a href="#" class="head">
-                      مجموعة ادهان فنتج وخنين والخلطة النجدية
-                    </a>
-
-                    <p>
-                      مجموعة ادهان فنتج وخنين والخلطة 
-                    </p>
-      
-                    <div class="price">
-                      <p class="price-before">
-                        350 د.ر
-                      </p>
-      
-                      <p class="price-after">
-                        220 د.ر 
-                      </p>
-      
-                    </div>
-      
-                    <div class="buttons-data">
-                      <button type="button" class="btn-data add-cart">
-                        <img src="assets/images/cart.svg" alt="">
-                        <span>
-                          اضف الي السلة
-                        </span>
-                      </button>
-
-                      <button type="button" class="btn-data">
-                        <img src="assets/images/heart.svg" alt="">
-                        <span>
-                          اضف الي المفضلة
-                        </span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="product-box">
-                  <div class="image-content">
-                    <img src="assets/images/product_1.webp" alt="">
-                  </div>
-      
-                  <div class="content">
-                    <a href="#" class="head">
-                      مجموعة ادهان فنتج وخنين والخلطة النجدية
-                    </a>
-
-                    <p>
-                      مجموعة ادهان فنتج وخنين والخلطة 
-                    </p>
-      
-                    <div class="price">
-                      <p class="price-before">
-                        350 د.ر
-                      </p>
-      
-                      <p class="price-after">
-                        220 د.ر 
-                      </p>
-      
-                    </div>
-      
-                    <div class="buttons-data">
-                      <button type="button" class="btn-data add-cart">
-                        <img src="assets/images/cart.svg" alt="">
-                        <span>
-                          اضف الي السلة
-                        </span>
-                      </button>
-
-                      <button type="button" class="btn-data">
-                        <img src="assets/images/heart.svg" alt="">
-                        <span>
-                          اضف الي المفضلة
-                        </span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="product-box">
-                  <div class="image-content">
-                    <img src="assets/images/product_1.webp" alt="">
-                  </div>
-      
-                  <div class="content">
-                    <a href="#" class="head">
-                      مجموعة ادهان فنتج وخنين والخلطة النجدية
-                    </a>
-
-                    <p>
-                      مجموعة ادهان فنتج وخنين والخلطة 
-                    </p>
-      
-                    <div class="price">
-                      <p class="price-before">
-                        350 د.ر
-                      </p>
-      
-                      <p class="price-after">
-                        220 د.ر 
-                      </p>
-      
-                    </div>
-      
-                    <div class="buttons-data">
-                      <button type="button" class="btn-data add-cart">
-                        <img src="assets/images/cart.svg" alt="">
-                        <span>
-                          اضف الي السلة
-                        </span>
-                      </button>
-
-                      <button type="button" class="btn-data">
-                        <img src="assets/images/heart.svg" alt="">
-                        <span>
-                          اضف الي المفضلة
-                        </span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="product-box">
-                  <div class="image-content">
-                    <img src="assets/images/product_1.webp" alt="">
-                  </div>
-      
-                  <div class="content">
-                    <a href="#" class="head">
-                      مجموعة ادهان فنتج وخنين والخلطة النجدية
-                    </a>
-
-                    <p>
-                      مجموعة ادهان فنتج وخنين والخلطة 
-                    </p>
-      
-                    <div class="price">
-                      <p class="price-before">
-                        350 د.ر
-                      </p>
-      
-                      <p class="price-after">
-                        220 د.ر 
-                      </p>
-      
-                    </div>
-      
-                    <div class="buttons-data">
-                      <button type="button" class="btn-data add-cart">
-                        <img src="assets/images/cart.svg" alt="">
-                        <span>
-                          اضف الي السلة
-                        </span>
-                      </button>
-
-                      <button type="button" class="btn-data">
-                        <img src="assets/images/heart.svg" alt="">
-                        <span>
-                          اضف الي المفضلة
-                        </span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-          </div>
-
-          <!-- <div class="loader">
-            <div class="spinner">
-              <div class="inner"></div>
-            </div>
-          </div> -->
-        </div>
-      </section>
-
-      <section class="opinion bk-shape general-section">
-        <div class="container">
-          <div class="heading">
-            <h1>
-              آراء العملاء
-            </h1>
-
-            <p>
-              هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة
-            </p>
-          </div>
-
-          <div class="swiper-container opinion">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="box">
-                  <div class="image-content">
-                    <img src="assets/images/profile.png" alt="">
-                  </div>
-
-                  <h2>
-                    اسم الشخص
-                  </h2>
-
-                  <p>
-                    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. 
-                  </p>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="box">
-                  <div class="image-content">
-                    <img src="assets/images/profile.png" alt="">
-                  </div>
-
-                  <h2>
-                    اسم الشخص
-                  </h2>
-
-                  <p>
-                    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. 
-                  </p>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="box">
-                  <div class="image-content">
-                    <img src="assets/images/profile.png" alt="">
-                  </div>
-
-                  <h2>
-                    اسم الشخص
-                  </h2>
-
-                  <p>
-                    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. 
-                  </p>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="box">
-                  <div class="image-content">
-                    <img src="assets/images/profile.png" alt="">
-                  </div>
-
-                  <h2>
-                    اسم الشخص
-                  </h2>
-
-                  <p>
-                    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. 
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="shipping">
-        <div class="container">
           <div class="row">
-            <div class="col-lg-4 col-md-6 col-12 mb-4">
-              <a href="#" class="box">
-                <img src="assets/images/offer.png" alt="">
+            <div class="col-lg-3 col-6 mb-4">
+              <div class="product-box">
+                  <div class="image-content">
+                    <img src="assets/images/miniproduct.webp" alt="Product" class="product-img">
+                    <img src="./assets/images/fav.svg" class="fav-icon" alt="Favorite">
+                  </div>
+      
+                  <div class="content">
+                    <a href="#" class="head">
+                      عطر كتاليا
+                    </a>
 
-                <p>
-                  منتجات ذات جودة عالية
-                </p>
-              </a>
+                    <p>
+                      العطور الفاخرة
+                    </p>
+      
+                    <div class="buttons-data">
+
+                      <button type="button" class="btn-data">
+                        <span>
+                          تفاصيل المنتج
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-12 mb-4">
-              <a href="#" class="box">
-                <img src="assets/images/delivery-truck.png" alt="">
+            <div class="col-lg-3 col-6 mb-4">
+              <div class="product-box">
+                  <div class="image-content">
+                    <img src="assets/images/miniproduct.webp" alt="Product" class="product-img">
+                    <img src="./assets/images/fav.svg" class="fav-icon" alt="Favorite">
+                  </div>
+      
+                  <div class="content">
+                    <a href="#" class="head">
+                      عطر كتاليا
+                    </a>
 
-                <p>
-                  خدمات التوصيل والشحن
-                </p>
-              </a>
+                    <p>
+                      العطور الفاخرة
+                    </p>
+      
+                    <div class="buttons-data">
+
+                      <button type="button" class="btn-data">
+                        <span>
+                          تفاصيل المنتج
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-12">
-              <a href="#" class="box">
-                <img src="assets/images/return.png" alt="">
+            <div class="col-lg-3 col-6 mb-4">
+              <div class="product-box">
+                  <div class="image-content">
+                    <img src="assets/images/miniproduct.webp" alt="Product" class="product-img">
+                    <img src="./assets/images/fav.svg" class="fav-icon" alt="Favorite">
+                  </div>
+      
+                  <div class="content">
+                    <a href="#" class="head">
+                      عطر كتاليا
+                    </a>
 
-                <p>
-                  طرق الدفع
-                </p>
-              </a>
+                    <p>
+                      العطور الفاخرة
+                    </p>
+      
+                    <div class="buttons-data">
+
+                      <button type="button" class="btn-data">
+                        <span>
+                          تفاصيل المنتج
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-6 mb-4">
+              <div class="product-box">
+                  <div class="image-content">
+                    <img src="assets/images/miniproduct.webp" alt="Product" class="product-img">
+                    <img src="./assets/images/fav.svg" class="fav-icon" alt="Favorite">
+                  </div>
+      
+                  <div class="content">
+                    <a href="#" class="head">
+                      عطر كتاليا
+                    </a>
+
+                    <p>
+                      العطور الفاخرة
+                    </p>
+      
+                    <div class="buttons-data">
+
+                      <button type="button" class="btn-data">
+                        <span>
+                          تفاصيل المنتج
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-6 mb-4">
+              <div class="product-box">
+                  <div class="image-content">
+                    <img src="assets/images/miniproduct.webp" alt="Product" class="product-img">
+                    <img src="./assets/images/fav.svg" class="fav-icon" alt="Favorite">
+                  </div>
+      
+                  <div class="content">
+                    <a href="#" class="head">
+                      عطر كتاليا
+                    </a>
+
+                    <p>
+                      العطور الفاخرة
+                    </p>
+      
+                    <div class="buttons-data">
+
+                      <button type="button" class="btn-data">
+                        <span>
+                          تفاصيل المنتج
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-6 mb-4">
+              <div class="product-box">
+                  <div class="image-content">
+                    <img src="assets/images/miniproduct.webp" alt="Product" class="product-img">
+                    <img src="./assets/images/fav.svg" class="fav-icon" alt="Favorite">
+                  </div>
+      
+                  <div class="content">
+                    <a href="#" class="head">
+                      عطر كتاليا
+                    </a>
+
+                    <p>
+                      العطور الفاخرة
+                    </p>
+      
+                    <div class="buttons-data">
+
+                      <button type="button" class="btn-data">
+                        <span>
+                          تفاصيل المنتج
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-6 mb-4">
+              <div class="product-box">
+                  <div class="image-content">
+                    <img src="assets/images/miniproduct.webp" alt="Product" class="product-img">
+                    <img src="./assets/images/fav.svg" class="fav-icon" alt="Favorite">
+                  </div>
+      
+                  <div class="content">
+                    <a href="#" class="head">
+                      عطر كتاليا
+                    </a>
+
+                    <p>
+                      العطور الفاخرة
+                    </p>
+      
+                    <div class="buttons-data">
+
+                      <button type="button" class="btn-data">
+                        <span>
+                          تفاصيل المنتج
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-6 mb-4">
+              <div class="product-box">
+                  <div class="image-content">
+                    <img src="assets/images/miniproduct.webp" alt="Product" class="product-img">
+                    <img src="./assets/images/fav.svg" class="fav-icon" alt="Favorite">
+                  </div>
+      
+                  <div class="content">
+                    <a href="#" class="head">
+                      عطر كتاليا
+                    </a>
+
+                    <p>
+                      العطور الفاخرة
+                    </p>
+      
+                    <div class="buttons-data">
+
+                      <button type="button" class="btn-data">
+                        <span>
+                          تفاصيل المنتج
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+              <div class="buttons-contain">
+                <a href="#" class="btn-contain">
+                  شاهد المزيد من أحدث المنتجات
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -933,53 +696,59 @@
       </div>
     </div>
 
+    <section class="next-headerImg" style="margin-bottom: 50px;">
+      <div class="container">
+        <div class="headerImg">
+          <img src="./assets/images/headerImg.webp" alt="Image">
+          <img src="./assets/images/headerImg.webp" alt="Image">
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="lastImg">
+          <img src="./assets/images/lastImg.webp" alt="Image">
+        </div>
+      </div>
+    </section>
+    
+
     <footer>
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-12 mb-4">
             <div class="content">
               <a href="#" class="brand-name">
-                <img src="assets/images/logo.png" alt="">
+                <img src="assets/images/footer-logo.svg" alt="Logo">
               </a>
 
               <p>
-                شكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. 
+                يعد اختيار خشب وأدهان العود أمرًا صعبًا ، ولكن وجود Marvelous Emotion سيساعدك في العثور على خشب وأدهان العود الذي ستحبه لسنوات       
               </p>
 
               <ul class="socail-media">
                 <li>
                   <a href="#">
-                    <img src="assets/images/facebook.svg" alt="">
+                    <img src="assets/images/emailLogo.svg" alt="Email">
                   </a>
                 </li>
 
                 <li>
                   <a href="#">
-                    <img src="assets/images/twitter.svg" alt="">
+                    <img src="assets/images/snapLogo.svg" alt="Snapchat">
                   </a>
                 </li>
 
                 <li>
                   <a href="#">
-                    <img src="assets/images/youtube.svg" alt="">
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#">
-                    <img src="assets/images/insta.svg" alt="">
+                    <img src="assets/images/instaLogo.svg" alt="Instagram">
                   </a>
                 </li>
           
                 <li>
                   <a href="#">
-                    <img src="assets/images/snapchat.svg" alt="">
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#">
-                    <img src="assets/images/tiktok.png" alt="">
+                    <img src="assets/images/whatsapplogo.png" alt="Whatsapp">
                   </a>
                 </li>
               </ul>
@@ -993,16 +762,10 @@
               </h1>
 
               <div class="links-contain">
-                <ul class="links">
+                <ul class="links" style="list-style: circle;">
                   <li>
                     <a href="#">
                       سياسة الخصوصية
-                    </a>
-                  </li>
-  
-                  <li>
-                    <a href="#">
-                      سياسة الاستخدام
                     </a>
                   </li>
   
@@ -1014,30 +777,28 @@
   
                   <li>
                     <a href="#">
-                      سياسة الاسترجاع
-                    </a>
-                  </li>
-                </ul>
-
-                <ul class="links">
-                  <li>
-                    <a href="#">
-                      من نحن
+                      التوصيل و الاسترجاع
                     </a>
                   </li>
   
+                  <li>
+                    <a href="#">
+                      المنتجات
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      الأكثر مبيعاً
+                    </a>
+                  </li>
+
                   <li>
                     <a href="#">
                       التخفيضات
                     </a>
                   </li>
-  
-                  <li>
-                    <a href="#">
-                      المنتاجات
-                    </a>
-                  </li>
-  
+
                   <li>
                     <a href="#">
                       تواصل معنا
@@ -1065,15 +826,23 @@
                 </div>
               </form>
             </div>
+            <div class="paymentS">
+              <img src="./assets/images/pay.svg" alt="Pay">
+              <img src="./assets/images/mastercard.svg" alt="Card">
+              <img src="./assets/images/visa.svg" alt="Visa">
+            </div>
+          </div>
+          <div class="lastText">
+            <p style="font-size: 20px; font-weight: 600; margin-bottom: 0;">
+              2024 جميع الحقوق محفوظة لـ Marvelous Emotion
+            </p>
           </div>
         </div>
 
         <div class="copyrigths">
-          <p>
-            جميع الحقوق محفوظه لدي اسم الموقع @2022
-          </p>
 
-          <img class="payment" src="assets/images/payment.png" alt="">
+
+          <img src="assets/images/madeby.svg" alt="Image">
         </div>
       </div>
     </footer>
@@ -1095,5 +864,20 @@
     <script src="assets/js/lib/swiper.js"></script>
     <script src="assets/js/lib/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+      document.getElementById('currency-toggle').addEventListener('click', function() {
+  const dropdown = document.getElementById('currency-options');
+  dropdown.style.display = dropdown.style.display === 'none' || dropdown.style.display === '' ? 'block' : 'none';
+});
+
+// Optional: Close dropdown when clicking outside
+window.addEventListener('click', function(event) {
+  const dropdown = document.getElementById('currency-options');
+  if (!event.target.matches('#currency-toggle') && !dropdown.contains(event.target)) {
+    dropdown.style.display = 'none';
+  }
+});
+
+    </script>
   </body>
 </html>
