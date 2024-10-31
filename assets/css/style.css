@@ -265,6 +265,7 @@ ul {
 }
 
 .product-box {
+  position: relative;
   width: 100%;
   border-radius: 9px;
   overflow: hidden;
@@ -5158,7 +5159,8 @@ footer .copyrigths .payment {
   }
 
   .lastImg {
-    display: block;
+    display: flex;
+    justify-content: center;
   }
 
   footer .content .links-contain .links {
