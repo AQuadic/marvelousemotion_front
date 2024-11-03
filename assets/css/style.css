@@ -295,7 +295,6 @@ ul {
   left: 20px;
   top: 10px;
 }
-
 @media (max-width: 600px) {
   .product-box .image-content .fav-icon {
     left: 5px;
@@ -5088,6 +5087,7 @@ footer .copyrigths .payment {
   .shopping .dept-products {
     grid-template-columns: repeat(3, 1fr);
   }
+
   .shopping .dept-products div img {
     width: 100px !important;
     height: 100px !important;
@@ -5205,7 +5205,6 @@ footer .copyrigths .payment {
     display: flex;
     justify-content: center;
   }
-
   .lastImg img {
     width: 300px;
   }
