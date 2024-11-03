@@ -296,6 +296,13 @@ ul {
   top: 10px;
 }
 
+@media (max-width: 600px) {
+  .product-box .image-content .fav-icon {
+    left: 5px;
+    top: 5px;
+  }
+}
+
 .product-box .content {
   width: 100%;
   padding: 10px 10px;
@@ -5082,8 +5089,8 @@ footer .copyrigths .payment {
     grid-template-columns: repeat(3, 1fr);
   }
   .shopping .dept-products div img {
-    width: 123px !important;
-    height: 125px !important;
+    width: 100px !important;
+    height: 100px !important;
   }
   .shopping .dept-products div p {
     font-size: 16px !important;
@@ -5197,6 +5204,10 @@ footer .copyrigths .payment {
   .lastImg {
     display: flex;
     justify-content: center;
+  }
+
+  .lastImg img {
+    width: 300px;
   }
 
   footer .content .links-contain .links {
