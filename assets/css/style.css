@@ -1755,6 +1755,42 @@ ul {
   --dark: #000;
 }
 
+/* Sidebar */
+.navbar-nav {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  color: white;
+  padding-top: 20px;
+  transition: left 0.3s ease;
+  z-index: 1000;
+}
+
+.navbar-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar-nav ul li {
+  padding: 15px;
+}
+
+.navbar-nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-nav.active-nav {
+  left: 0;
+}
+
+.overflowNone {
+  overflow: hidden;
+}
+
 .navbar {
   width: 100%;
   padding: 10px 0px;
