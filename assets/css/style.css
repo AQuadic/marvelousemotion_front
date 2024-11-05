@@ -5027,6 +5027,7 @@ footer .copyrigths .payment {
   display: flex;
   gap: 7px;
   align-items: center;
+  color: white;
 }
 
 .offer div {
@@ -5088,31 +5089,32 @@ footer .copyrigths .payment {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .shopping .dept-products div img {
+  .shopping .dept-products a img {
     width: 100px !important;
     height: 100px !important;
   }
-  .shopping .dept-products div p {
+  .shopping .dept-products a p {
     font-size: 16px !important;
   }
 }
 
-.shopping .dept-products div {
+.shopping .dept-products a {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.shopping .dept-products div img {
+.shopping .dept-products a img {
   width: 180px;
   height: 180px;
 }
 
-.shopping .dept-products div p {
+.shopping .dept-products a p {
   font-size: 24px;
   font-weight: 600;
   line-height: 42px;
+  color: black;
 }
 
 .general-section .heading {
