@@ -1886,8 +1886,8 @@ ul {
 }
 
 .navbar .content .brand-name img {
-  width: 120px;
-  height: 100px;
+  /* width: 120px;
+  height: 100px; */
   -o-object-fit: contain;
   object-fit: contain;
   -webkit-transition: all 0.3s linear;
