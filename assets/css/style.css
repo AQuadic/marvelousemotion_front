@@ -5144,8 +5144,8 @@ footer .copyrigths .payment {
   margin-top: 26px;
 }
 
-.headerImg img {
-  width: 50% !important;
+.headerImg a img {
+  width: 550px !important;
 }
 
 .lastImg {
@@ -5180,7 +5180,7 @@ footer .copyrigths .payment {
     column-gap: 20px;
   }
 
-  .headerImg img {
+  .headerImg a img {
     width: 100% !important;
   }
 
