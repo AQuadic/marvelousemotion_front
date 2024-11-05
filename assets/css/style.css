@@ -309,7 +309,7 @@ ul {
 
 .product-box .content .head {
   color: var(--dark);
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 700;
   margin: 0px;
   display: block;
@@ -1841,7 +1841,7 @@ ul {
 .navbar .content .hamburger .line {
   width: 30px;
   height: 3px;
-  background: linear-gradient(45deg, #6e1214 0%, #6e1214 100%);
+  background: white;
   display: block;
   margin: 8px auto;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1879,6 +1879,10 @@ ul {
 
 .navbar .content .navbar-nave {
   display: flex;
+}
+
+.navbar .content .navbar-nave li img {
+  height: 36px;
 }
 
 .navbar .content .brand-name img {
