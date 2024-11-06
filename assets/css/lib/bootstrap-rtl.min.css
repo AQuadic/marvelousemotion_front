@@ -536,7 +536,7 @@ pre code {
   margin-right: -15px;
   margin-left: -15px;
   justify-content: center;
-  align-items: baseline;
+  /* align-items: baseline; */
 }
 .no-gutters {
   margin-right: 0;
