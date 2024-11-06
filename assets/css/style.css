@@ -1879,6 +1879,7 @@ ul {
 
 .navbar .content .navbar-nave {
   display: flex;
+  margin-top: 40px;
 }
 
 .navbar .content .navbar-nave li img {
@@ -1930,6 +1931,7 @@ ul {
   align-items: center;
   -ms-flex-line-pack: center;
   align-content: center;
+  margin-top: 40px;
 }
 
 .navbar .content .links-contain li {
@@ -4167,7 +4169,7 @@ footer .content .brand-name img {
 
 footer .content p {
   color: #000000;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 1.8rem;
   margin: 20px 0px;
@@ -4209,7 +4211,7 @@ footer .content .socail-media li a:hover img {
 }
 
 footer .content h1 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   color: #000000;
   padding-right: 20px;
@@ -4243,8 +4245,7 @@ footer .content .links-contain .links li:last-child {
 
 footer .content .links-contain .links li a {
   color: #000;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 16px;
 }
 
 footer .content .links-contain .links li a:hover {
@@ -4977,50 +4978,6 @@ footer .copyrigths .payment {
   z-index: 20;
 }
 
-.first-barContent {
-  display: flex;
-  align-items: center;
-  gap: 27px;
-  padding-top: 15px;
-}
-
-.first-barContent p {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-  color: white;
-}
-
-.currency-dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-#currency-toggle {
-  cursor: pointer;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: white;
-  min-width: 100px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  z-index: 9999;
-  left: 5%;
-}
-
-.dropdown-content p {
-  padding: 8px 12px;
-  margin: 0;
-  cursor: pointer;
-  color: black;
-}
-
-.dropdown-content p:hover {
-  background-color: #f1f1f1;
-}
-
 .offer {
   display: flex;
   justify-content: space-around;
@@ -5058,6 +5015,7 @@ footer .copyrigths .payment {
   display: flex;
   justify-content: start;
   background: #444144;
+  padding: 8px 0;
 }
 
 .thirdBar ul {
@@ -5097,7 +5055,7 @@ footer .copyrigths .payment {
   gap: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .shopping .dept-products {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -5161,12 +5119,12 @@ footer .copyrigths .payment {
 }
 
 .general-section .heading h1 {
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 600;
 }
 
 .general-section .heading p {
-  font-size: 24px;
+  font-size: 16px;
   color: #800000;
   font-weight: 600;
 }
@@ -5186,12 +5144,9 @@ footer .copyrigths .payment {
 }
 
 @media (max-width: 999px) {
-  .first-bar {
-    display: none !important;
-  }
-
   .navbar .content .navbar-nave {
     order: 1;
+    margin-top: 20px;
   }
 
   .offer {
@@ -5273,6 +5228,7 @@ footer .copyrigths .payment {
   }
   .navbar .hamburger {
     display: block !important;
+    margin-top: 20px;
   }
   .navbar.scrolled .navbar-nav {
     top: 70px !important;
