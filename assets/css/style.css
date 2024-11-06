@@ -4962,20 +4962,27 @@ footer .copyrigths .payment {
   width: 377px;
   height: 40px;
   border-radius: 8px;
-  text-align: left;
+  text-align: right;
   border-top-right-radius: 8px !important;
   border-bottom-right-radius: 8px !important;
 }
 
+.links-contain #basic-addon1 {
+  display: flex;
+  align-items: center;
+}
+
 .links-contain .form-control::placeholder {
   position: absolute;
-  left: 2%;
+  right: 2%;
 }
 
 .links-contain .search-icon {
   position: absolute;
-  right: 2%;
+  left: 2%;
   z-index: 20;
+  width: 24px;
+  height: 24px;
 }
 
 .offer {
