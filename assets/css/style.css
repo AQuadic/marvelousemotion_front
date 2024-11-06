@@ -4212,6 +4212,7 @@ footer .content h1 {
   font-size: 24px;
   font-weight: 600;
   color: #000000;
+  padding-right: 20px;
 }
 
 footer .content .links-contain {
@@ -5107,6 +5108,26 @@ footer .copyrigths .payment {
   }
   .shopping .dept-products a p {
     font-size: 16px !important;
+  }
+  footer .content h1 {
+    padding-right: 0;
+    font-size: 16px;
+  }
+  footer .content .links-contain {
+    padding-right: 26px !important;
+  }
+  .lastText p {
+    font-size: 10px !important;
+    margin-top: 0 !important;
+  }
+  footer .content p {
+    font-size: 12px;
+  }
+  footer .content .socail-media {
+    gap: 28px;
+  }
+  footer .content .links-contain .links li a {
+    font-size: 14px;
   }
 }
 
