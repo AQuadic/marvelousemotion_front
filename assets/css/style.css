@@ -402,7 +402,7 @@ ul {
 
 .product-box .content .buttons-data .btn-data span {
   color: #fff;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 500;
   -webkit-margin-start: 4px;
   margin-inline-start: 4px;
@@ -427,6 +427,12 @@ ul {
 .product-box:hover {
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
+}
+
+@media (max-width: 600px) {
+  .product-box .content .head {
+    font-size: 14px;
+  }
 }
 
 @-webkit-keyframes bounce-in-fwd {
@@ -1879,7 +1885,7 @@ ul {
 
 .navbar .content .navbar-nave {
   display: flex;
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 .navbar .content .navbar-nave li img {
@@ -1887,7 +1893,7 @@ ul {
 }
 
 .navbar .content .brand-name img {
-  /*width: 120px;*/
+  width: 340px;
   /*height: 100px;*/
   -o-object-fit: contain;
   object-fit: contain;
@@ -1931,7 +1937,7 @@ ul {
   align-items: center;
   -ms-flex-line-pack: center;
   align-content: center;
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 .navbar .content .links-contain li {
@@ -5162,7 +5168,7 @@ footer .copyrigths .payment {
 @media (max-width: 999px) {
   .navbar .content .navbar-nave {
     order: 1;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
 
   .offer .navContacts a span {
@@ -5250,7 +5256,7 @@ footer .copyrigths .payment {
   }
   .navbar .hamburger {
     display: block !important;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
   .navbar.scrolled .navbar-nav {
     top: 70px !important;
